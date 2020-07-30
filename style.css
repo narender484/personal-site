@@ -1,0 +1,152 @@
+body{
+  text-align:center;
+  font-family: 'Merriweather', serif;
+  }
+  h1{
+    font-family: 'Sacramento', cursive;
+    margin-top: 20px;
+    color: #66BFBF;
+    line-height: 2;
+    font-size: 70px;
+  }
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#66BFBF;
+  }
+  h3{
+    font-family: 'Montserrat', sans-serif;
+  }
+  p{
+    font-weight: normal;
+  }
+  hr{
+    border:dotted #EAF6F6 6px;
+    border-bottom: none;
+    width:5%;
+    margin:100px auto 100px auto;
+
+  }
+  a{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+  }
+  a:hover{
+    color:#EAF6F6;
+  }
+  .copyright{
+    color: #EAF6F6;
+    padding:10px 0;
+  }
+  .modi{
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+
+  }
+  .contact-me{
+    line-height: 2;
+  }
+
+  .mountain{
+    height:500px;
+    width:700px;
+  }
+  .top-container{
+  background-color: #EAF6F6;
+  animation-name: color_change;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+  position: relative;
+  padding-top: 50px;
+}
+.middle-container{
+  margin: 100px auto 100px auto;
+
+}
+.design{
+width: 50%;
+float: left;
+margin-right: 30px;
+}
+.skills1{
+  width: 50%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+.design_p{
+  clear:left;
+}
+.skills1_p{
+  clear: right;
+}
+p{
+  line-height: 2;
+}
+.bottom-container{
+  background-color:#cbeaed;
+  line-height: 3;
+  padding:50px 0 50px 0;
+
+}
+.bottom-cloud{
+  position:absolute;
+  left:200px;
+  animation-name: slide;
+  animation-duration: 7s;
+  animation-iteration-count: 2;
+}
+.top-cloud{
+  position:absolute;
+  right:200px;
+  animation-name: slide;
+  animation-duration: 7s;
+  animation-iteration-count:infinite;
+}
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+@keyframes color_change {
+  from {background-color:  #EAF6F6;}
+  to {background-color: pink;}
+}
+@keyframes slide {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+@keyframes slide {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+      }
+}
